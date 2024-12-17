@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+</head>
+<body>
+    <style>
+        *{
+            transition: all 0.3s;
+        }
+        body {
+            background-color: slategray;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font-family: calibri;
+            font-size: 120%;
+        }
+
+        .contenedor {
+            width: 98vw;
+            height: 97vh;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;  
+        }
+
+        .encabezado {
+            background-color: white;
+            min-width: 300px;
+            width: 70%;
+            padding: 10px;
+        }
+
+        .categoria {
+            opacity: 0.3;
+            text-align: left;
+        }
+
+        .pregunta {
+            padding: 10px;
+        }
+
+        .imagen {
+            width: 200px;
+            height: 200px;
+            /*object-fit:contain;*/
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
+
+        .btn {
+            background: white;
+            width: 60%;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background: orange;
+            cursor: pointer;
+        }
+
+    </style>
+    <div class="contenedor">
+        <div class="encabezado">
+            <div class="categoria" id="categoria">
+                Categoria
+            </div>
+            <div class="pregunta" id="pregunta">
+                Pregunta
+            </div>
+            <img src="imagenes/Gioconda.jpg" class="imagen" id="imagen" alt="">
+        </div>
+        <div class="btn" id="btn1">
+            Opción 1
+        </div>
+        <div class="btn" id="btn2">
+            Opción 2
+        </div>
+        <div class="btn" id="btn3">
+            Opción 3
+        </div>
+        <div class="btn" id="btn4">
+            Opción 4
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+    {
+        "categoria": "Arte y Literartura",
+        "pregunta": "¿Quién pintó la mona lisa?",
+        "respuesta": "Leonardo Da Vinci",
+        "incorrecta1": "Picasso",
+        "incorrecta2": "Miguel Ángel",
+        "incorrecta3": "Monet",
+        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "object-fit": "cover"
+    },
+
+    {
+        "categoria": "Arte y Literartura",
+        "pregunta": "¿Quién escribio cien años de soledad?",
+        "respuesta": "Gabriel García Márquez",
+        "incorrecta1": "Mario Vargas Llosa",
+        "incorrecta2": "Jorge Isaacs",
+        "incorrecta3": "Jane Austen",
+        "imagen": "https://indiehoy.com/wp-content/uploads/2020/12/garcia-marquez-libro.jpg",
+        "object-fit": "cover"
+    },
+
+    {
+        "categoria": "Arte y Literartura",
+        "pregunta": "¿Cómo se llama el siguiente artista Colombiano?",
+        "respuesta": "Fernando Botero",
+        "incorrecta1": "Rafael Parra-Toro",    
+        "incorrecta2": "Mario Mendoza",
+        "incorrecta3": "Joaquin Vega",
+        "imagen": "https://efe.com/wp-content/uploads/2023/09/Botero2.jpg",
+        "object-fit": "cover"
+    }
+]
